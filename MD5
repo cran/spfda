@@ -1,0 +1,14 @@
+cc99e6910c21630def35e062a1cc98ed *DESCRIPTION
+287386dbd7f9a137cdf7baf369a2207c *LICENSE
+be164aea404fb44ddb8ce1496d1108b0 *NAMESPACE
+d0f932a449ff892b42ae3753a126e10b *NEWS.md
+026bd002e24b936651e42730b2bc1d78 *R/aaa.R
+70083a9eeac6a0e47f29de154d0ef528 *R/derivatives.R
+d90c6f318c6df3f6c80edad99c04ad91 *R/model-gbridge.R
+9dc4101fdc33dd01ef1f3ddad74caf6b *R/models.R
+86ee15dd9e14a7880a34bdc94e17ead6 *R/simulate.R
+1b27b91c574e9320d32ec550647a57d2 *build/spfda.pdf
+3a1b672f8e9ab22d4f6250316c87d34a *inst/CITATION
+5f8529e219cce0631649090b069c0595 *inst/WORDLIST
+09cdb2d8be9cf1ab84f5089b7a07f0de *man/spfda.Rd
+edbd0dc3d8cc7906f5ad8a2d64dac254 *man/spfda_simulate.Rd
