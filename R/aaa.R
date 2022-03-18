@@ -8,12 +8,15 @@
 #' @importFrom stats pnorm
 #' @importFrom stats rnorm
 #' @importFrom stats runif
+#' @importFrom stats kernapply
+#' @importFrom stats kernel
 #'
 #' @importFrom graphics axis
 #' @importFrom graphics matpoints
 #' @importFrom graphics polygon
 #'
 #' @importFrom splines splineDesign
+#' @importFrom mathjaxr preview_rd
 NULL
 
 str2lang_alt <- function (s) {

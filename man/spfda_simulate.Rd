@@ -2,20 +2,26 @@
 % Please edit documentation in R/simulate.R
 \name{spfda_simulate}
 \alias{spfda_simulate}
-\title{Generate toy example data}
+\title{Generates toy example data}
 \usage{
-spfda_simulate(n = 1000, n_timepoints = 100, err = 1)
+spfda_simulate(n = 1000, n_timepoints = 100, err = 1, scale = c(1, 1, 1))
 }
 \arguments{
 \item{n}{Total number of observations}
 
 \item{n_timepoints}{Total number of time points}
 
-\item{err}{error level}
+\item{err}{Error magnitude}
+
+\item{scale}{the scale of coefficients length of 1 or 3.}
 }
 \value{
-A list of data generated
+A list of data generated: \code{X} is scalar predictor, \code{Y} is
+functional response.
 }
 \description{
-Generate toy example data
+Synthesized functional signals with heterogeneous error. The
+underlying three coefficients correspond to 'dense', 'global sparse', and
+'local sparse' functions. See \url{https://arxiv.org/abs/2006.10163} for
+detailed configurations.
 }
